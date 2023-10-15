@@ -19,6 +19,9 @@ To complete this project, you will need to:
 
 Successful URL responses should have a 200 code. Ensure that you include error codes for the scenario that someone uploads something other than an image and for other common errors.
 
+## Example
+http://project-2-dev2.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://buffer.com/library/content/images/size/w1000/2023/10/free-images-for-commercial-use--20-.png
+
 ## License
 
 [License](LICENSE.txt)
