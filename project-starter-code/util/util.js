@@ -20,7 +20,6 @@ import Jimp from "jimp";
         .quality(60) // set JPEG quality
         .greyscale() // set greyscale
         .write(outpath, (img) => {
-          console.log(`img ${outpath}`)
           resolve(outpath);
         });
     } catch (error) {
